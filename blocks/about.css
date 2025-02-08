@@ -1,0 +1,40 @@
+@keyframes pulsate {
+}
+
+.about {
+  background-color: #0a2850;
+  color: #fff;
+  padding: 100px 80px 173px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.about__content {
+  max-width: 660px;
+  margin: 19px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  position: absolute;
+}
