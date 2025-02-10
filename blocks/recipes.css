@@ -1,4 +1,8 @@
 .recipes {
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
   color: #ffffff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
@@ -29,6 +33,8 @@
   justify-content: center;
   gap: 40px;
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .recipes__video-caption {
